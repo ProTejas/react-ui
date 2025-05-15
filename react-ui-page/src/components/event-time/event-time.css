@@ -1,0 +1,63 @@
+.event-box {
+    margin: 50px 0;
+}
+
+.event-heading {
+    padding: 25px 31px;
+    border-right: 1px solid #b1aeae;
+}
+
+.event-heading h2 {
+    font-size: 2em;
+    color: #12406F;
+    font-family: 'FSAlbert-bold';
+}
+
+.event-heading p {
+    color: #525252;
+    font-family: 'FSAlbert-light';
+}
+
+.event-time-box {
+    display: flex;
+}
+
+.event-dates {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.event-date-box {
+    display: flex;
+}
+
+.event-date-box img {
+    height: 50px;
+    width: 50px;
+}
+
+.event-date-box .event-date-heading {
+    margin-left: 10px;
+}
+
+.event-date-box .event-date-heading .event-date-month {
+    font-family: 'FSAlbert-bold';
+    color: #12406F;
+}
+
+.event-date-box .event-date-heading .event-exam-level {
+    font-family: 'FSAlbert-light';
+    color: #525252;
+}
+
+@media screen and (max-width: 996px) {
+    .event-time-box {
+        flex-wrap: wrap;
+    }
+
+    .event-dates {
+        flex-wrap: wrap;
+    }
+}
