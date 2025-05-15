@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'FSAlbert-bold';
+    src: url('../assets/fonts/AlbertSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FSAlbert-light';
+    src: url('../assets/fonts/AlbertSans-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FSAlbert-medium';
+    src: url('../assets/fonts/AlbertSans-Medium.ttf') format('truetype');
+}
