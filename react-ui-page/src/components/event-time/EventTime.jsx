@@ -26,7 +26,7 @@ function EventTime() {
                         <div className="event-date-box">
                             <img src={calenderTimer} alt="calender" />
                             <div className="event-date-heading">
-                                <p className='event-date-month'>Nov-Dec 2016 Level 2</p>
+                                <p className='event-date-month'>Nov-Dec 2016</p>
                                 <p className='event-exam-level'>Level 2 eaxm</p>
                             </div>
                         </div>

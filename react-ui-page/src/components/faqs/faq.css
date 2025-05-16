@@ -1,0 +1,39 @@
+.faq-heading {
+    text-align: center;
+}
+
+.faq-heading h2 {
+    font-family: 'FSAlbert-bold';
+    color: #12406F;
+}
+
+.faq-heading h2 {
+    font-family: 'FSAlbert-bold';
+    color: #12406F;
+}
+
+.faq-question {
+    display: flex;
+    padding: 15px 0;
+    border-bottom: 1px solid #c8c3c3;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.faq-answer p{
+    font-family: 'FSAlbert-medium';
+}
+
+.faq-content.blue-text p {
+    color: #12406F;
+}
+
+.faq-question p {
+    font-family: 'FSAlbert-bold';
+    color: #525252;
+}
+
+.faq-answer {
+    margin-top: 10px;
+    color: #525252;
+}
