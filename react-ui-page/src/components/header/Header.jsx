@@ -25,7 +25,7 @@ function Header() {
                         </div>
                         <div className='header-search'>
                             <div className="search-icon">
-                                <img src={searchIcon} alt="" srcset="" />
+                                <img src={searchIcon} alt="" />
                             </div>
                         </div>
                         <div className='header-btns'>

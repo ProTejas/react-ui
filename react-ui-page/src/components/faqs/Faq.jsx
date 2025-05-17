@@ -42,7 +42,7 @@ function FAQ() {
                                 </div>
 
                                 <div className="faq-plus-icon">
-                                    {openIndex === index ? <img src={minusIcon} alt="Plus Icon" srcset="" /> : <img src={plusIcon} alt="minus Icon" srcset="" />}
+                                    {openIndex === index ? <img src={minusIcon} alt="Plus Icon" /> : <img src={plusIcon} alt="minus Icon"/>}
                                 </div>
                             </div>
                             {openIndex === index && (

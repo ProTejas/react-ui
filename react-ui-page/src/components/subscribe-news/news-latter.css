@@ -1,0 +1,101 @@
+.news-latter {
+    margin-top: 40px;
+    /* padding: 40px 20px; */
+    background-color: #fff;
+}
+
+.news-latter-containt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.news-latter-containt>div:first-child {
+    flex: 1;
+    min-width: 280px;
+}
+
+.news-latter-containt h2 {
+    font-family: 'FSAlbert-bold';
+    color: #12406F;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.news-latter-containt p {
+    font-family: 'FSAlbert-light';
+    color: #525252;
+    font-size: 15px;
+    margin-bottom: 20px;
+    max-width: 500px;
+}
+
+.news-latter-email-input {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.news-latter-email-input input {
+    padding: 12px 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    flex: 1;
+    min-width: 220px;
+    font-size: 14px;
+    outline: none;
+}
+
+.news-latter-email-input button {
+    background-color: #12406F;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.news-latter-email-input button:hover {
+    background-color: #0f3056;
+}
+
+.news-latter-right-img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    max-width: 410px;
+}
+
+.news-latter-right-img img {
+    width: 100%;
+    height: auto;
+}
+
+/* ======= Responsive Design ======= */
+@media (max-width: 768px) {
+    .news-latter-containt {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .news-latter-email-input {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .news-latter-email-input input,
+    .news-latter-email-input button {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .news-latter-right-img {
+        margin-top: 20px;
+    }
+}

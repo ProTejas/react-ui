@@ -1,0 +1,59 @@
+.card-grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.info-card {
+    background-color: #12406F;
+    color: white;
+    border-radius: 16px;
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-image: url('/assets/bg-pattern.svg');
+    /* Replace with actual path */
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: contain;
+    transition: transform 0.3s ease;
+}
+
+.info-card:hover {
+    transform: translateY(-5px);
+}
+
+.info-card h3 {
+    font-family: 'FSAlbert-bold';
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+
+.info-card p {
+    font-family: 'FSAlbert-light';
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.know-more {
+    background: none;
+    color: white;
+    font-family: 'FSAlbert-medium';
+    border: none;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.know-more span {
+    display: inline-flex;
+    background: white;
+    color: #12406F;
+    border-radius: 50%;
+    padding: 5px;
+}

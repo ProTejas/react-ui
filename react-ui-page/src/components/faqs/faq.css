@@ -1,3 +1,7 @@
+.faq-box{
+    margin-top: 40px;
+    padding: 0 20px;
+}
 .faq-heading {
     text-align: center;
 }
@@ -20,7 +24,8 @@
     justify-content: space-between;
     cursor: pointer;
 }
-.faq-answer p{
+
+.faq-answer p {
     font-family: 'FSAlbert-medium';
 }
 
